@@ -13,6 +13,10 @@
         'views/estate_property_type.xml',
         'views/estate_property_tag.xml',
         'views/estate_property_menus.xml',
-        'views/res_users.xml'
-    ]
+        'views/res_users.xml',
+        'report/estate_property_reports.xml',
+        'report/res_user_reports.xml',
+        'data/estate_demo.xml'
+    ],
+    'application': True,
 }

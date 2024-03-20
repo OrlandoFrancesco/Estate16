@@ -7,6 +7,16 @@
         <field name="context">{"search_default_available":1}</field>
     </record>
 
+    <record id="estate_property_report" model="ir.actions.report">
+        <field name="name">Print sale info</field>
+        <field name="model">estate.property</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">estate.report_property_offers</field>
+        <field name="report_file">estate.report_property_offers</field>
+        <field name="binding_model_id" ref="model_estate_property"/>
+        <field name="binding_type">report</field>
+    </record>
+
     <record id="estate_property_view_kanban" model="ir.ui.view">
         <field name="name">estate.property.view.kanban</field>
         <field name="model">estate.property</field>

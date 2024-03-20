@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_property">
+        <t t-foreach="docs" t-as="property">
+            <t t-call="web.html_container">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h1>Test</h1>
+                        <t t-set="prop" t-value="property.mapped('property_ids')"/>
+                        <t t-foreach="prop" t-as="p">
+                            <p t-field="p.name"></p>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
