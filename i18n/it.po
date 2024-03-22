@@ -173,7 +173,7 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__garden
 msgid "Garden"
-msgstr "Garage"
+msgstr "Giardino"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__garden_area
