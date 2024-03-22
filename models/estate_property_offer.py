@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from dateutil.relativedelta import relativedelta
 from odoo.exceptions import ValidationError, UserError
 
@@ -30,12 +30,12 @@ class EstatePropertyOffer(models.Model):
     def accept(self):
         for record in self:
             if record.price < ((record.property_id.expected_price * 90)/100):
-                raise ValidationError("The selling price cannot be lower than 90% of the expected price.")
+                raise ValidationError(_("The selling price cannot be lower than 90% of the expected price."))
             
             domain = [('status', '=', 'accepted')]
             count = self.sudo().search_count(domain)
             if count > 1:
-                raise ValidationError("Only one offer can be accepted for a given property!")
+                raise ValidationError(_("Only one offer can be accepted for a given property!"))
             else:
                 record.status = "accepted"
                 record.property_id.state = "offer_accepted"
@@ -49,7 +49,7 @@ class EstatePropertyOffer(models.Model):
     def _check_price_positivity(self):
         for record in self:
             if record.price <= 0:
-                raise ValidationError("The price must be strictly positive.")
+                raise ValidationError(_("The price must be strictly positive."))
             
     @api.model
     def create(self, vals):
@@ -58,6 +58,6 @@ class EstatePropertyOffer(models.Model):
 
         for record in property.offer_ids:
             if vals["price"] < record.price:
-                raise UserError("You cannot create an offer with a lower amount than an existing offer.")                
+                raise UserError(_("You cannot create an offer with a lower amount than an existing offer."))
         
         return super(EstatePropertyOffer, self).create(vals)

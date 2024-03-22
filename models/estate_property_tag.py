@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError
 
 class EstatePropertyTag(models.Model):
@@ -15,4 +15,4 @@ class EstatePropertyTag(models.Model):
             domain = [('name', '=', record.name)]
             count = self.sudo().search_count(domain)
             if count > 1:
-                raise ValidationError("The name must be unique.")
+                raise ValidationError(_("The name must be unique."))

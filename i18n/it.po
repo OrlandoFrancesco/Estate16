@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 15:53+0000\n"
-"PO-Revision-Date: 2024-03-21 15:53+0000\n"
+"POT-Creation-Date: 2024-03-22 14:27+0000\n"
+"PO-Revision-Date: 2024-03-22 14:27+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -94,6 +94,13 @@ msgstr "CANCELLA"
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__state__cancelled
 msgid "Cancelled"
 msgstr "Cancellato"
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property.py:0
+#, python-format
+msgid "Cancelled properties cannot be sold."
+msgstr ""
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property_tag__color
@@ -196,7 +203,7 @@ msgstr "Ordina Per"
 #: model:ir.model.fields,field_description:estate.field_estate_property_tag__id
 #: model:ir.model.fields,field_description:estate.field_estate_property_type__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property____last_update
@@ -279,6 +286,13 @@ msgid "Offers"
 msgstr "Offerte"
 
 #. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property_offer.py:0
+#, python-format
+msgid "Only one offer can be accepted for a given property!"
+msgstr ""
+
+#. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "Other Info"
 msgstr "Altre Info"
@@ -287,7 +301,7 @@ msgstr "Altre Info"
 #: model:ir.model.fields,field_description:estate.field_estate_property_offer__partner_id
 #: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "Partner"
-msgstr "Partner"
+msgstr ""
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__postcode
@@ -408,6 +422,42 @@ msgid "Tag"
 msgstr "Etichetta"
 
 #. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property.py:0
+#, python-format
+msgid "The expected price must be strictly positive."
+msgstr "Il prezzo previsto deve essere strettamente positivo."
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property_tag.py:0
+#: code:addons/estate/models/estate_property_type.py:0
+#, python-format
+msgid "The name must be unique."
+msgstr "Il nome deve essere univoco."
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property_offer.py:0
+#, python-format
+msgid "The price must be strictly positive."
+msgstr "Il prezzo deve essere strettamente positivo."
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property_offer.py:0
+#, python-format
+msgid "The selling price cannot be lower than 90% of the expected price."
+msgstr "Il prezzo di vendita non potrà essere inferiore al 90% del prezzo previsto."
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property.py:0
+#, python-format
+msgid "The selling price must be positive."
+msgstr "Il prezzo di vendita deve essere positivo."
+
+#. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
 msgid "This is new!"
 msgstr "Nuovo!"
@@ -446,6 +496,20 @@ msgstr "Validità (giorni)"
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__west
 msgid "West"
 msgstr "Ovest"
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property.py:0
+#, python-format
+msgid "You can delete a property with a 'new' or 'deleted' status"
+msgstr "Puoi eliminare una proprietà con lo stato "nuovo" o "eliminato"."
+
+#. module: estate
+#. odoo-python
+#: code:addons/estate/models/estate_property_offer.py:0
+#, python-format
+msgid "You cannot create an offer with a lower amount than an existing offer."
+msgstr "Non è possibile creare un'offerta con un importo inferiore ad un'offerta esistente."
 
 #. module: estate
 #: model:ir.model,name:estate.model_estate_property

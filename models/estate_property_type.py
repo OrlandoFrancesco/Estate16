@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError
 
 class EstatePropertyType(models.Model):
@@ -17,7 +17,7 @@ class EstatePropertyType(models.Model):
             domain = [('name', '=', record.name)]
             count = self.sudo().search_count(domain)
             if count > 1:
-                raise ValidationError("The name must be unique.")
+                raise ValidationError(_("The name must be unique."))
             
     @api.depends("offer_ids")
     def _number_of_offers(self):

@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from dateutil.relativedelta import relativedelta
 from odoo.exceptions import UserError, ValidationError
 
@@ -68,7 +68,7 @@ class EstateProperty(models.Model):
 
     def button_sold(self):
         if self.state == "cancelled":
-            raise UserError("Cancelled properties cannot be sold.")
+            raise UserError(_("Cancelled properties cannot be sold."))
         else:
             self.state = "sold"       
 
@@ -76,16 +76,16 @@ class EstateProperty(models.Model):
     def _check_expected_price_positivity(self):
         for record in self:
             if record.expected_price <= 0:
-                raise ValidationError("The expected price must be strictly positive.")
+                 ValidationError(_("The expected price must be strictly positive."))
             
     @api.constrains("selling_price")
     def _check_selling_price_positivity(self):
         for record in self:
             if record.selling_price <= 0:
-                raise ValidationError("The selling price must be positive.")
+                raise ValidationError(_("The selling price must be positive."))
             
     @api.ondelete(at_uninstall=False)
     def _property_delete(self):
         for record in self:
             if record.state not in ["new", "cancelled"]:
-                raise UserError("You can delete a property with a 'new' or 'deleted' status")
+                raise UserError(_("You can delete a property with a 'new' or 'deleted' status"))
