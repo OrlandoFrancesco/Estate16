@@ -371,7 +371,7 @@ msgstr "Rifiutato"
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "SOLD"
-msgstr "VENDUTA"
+msgstr "VENDI"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__user_id
