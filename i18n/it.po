@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* Estate16
+# 	* estate
 #
 msgid ""
 msgstr ""
@@ -15,518 +15,518 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "<b>Expected price: </b>"
 msgstr "<b>Prezzo previsto: </b>"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "<b>Salesman: </b>"
 msgstr "<b>Venditore: </b>"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "<b>Status: </b>"
 msgstr "<b>Stato: </b>"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_view_kanban
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
 msgid "<strong>Best price: </strong>"
 msgstr "<strong>Miglior prezzo: </strong>"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_view_kanban
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
 msgid "<strong>Expected price: </strong>"
 msgstr "<strong>Prezzo previsto: </strong>"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_view_kanban
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
 msgid "<strong>Selling price: </strong>"
 msgstr "<strong>Prezzo di vendita: </strong>"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property_offer__status__accepted
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property_offer__status__accepted
 msgid "Accepted"
 msgstr "Accettato"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__active
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__active
 msgid "Active"
 msgstr "Attivo"
 
-#. module: Estate16
-#: model:ir.ui.menu,name:Estate16.test_first_level_menu
+#. module: estate
+#: model:ir.ui.menu,name:estate.test_first_level_menu
 msgid "Advertisement"
 msgstr "Annuncio"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Available"
 msgstr "Disponibile"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Available Properties"
 msgstr "Proprietà Disponibili"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__bedrooms
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__bedrooms
 msgid "Bedrooms"
 msgstr "Camere da Letto"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__best_price
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__best_price
 msgid "Best Price"
 msgstr "Miglior Prezzo"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__partner_id
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__partner_id
 msgid "Buyer"
 msgstr "Acquirente"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "CANCEL"
 msgstr "CANCELLA"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__state__cancelled
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__cancelled
 msgid "Cancelled"
 msgstr "Cancellato"
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property.py:0
+#: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "Cancelled properties cannot be sold."
 msgstr "Le proprietà cancellate non possono essere vendute."
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__color
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__color
 msgid "Color"
 msgstr "Colore"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__create_date
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__create_date
 msgid "Create Date"
 msgstr "Data di Creazione"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__create_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__create_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__create_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__create_uid
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__create_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__create_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__create_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__create_uid
 msgid "Created by"
 msgstr "Creato da"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__create_date
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__create_date
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__create_date
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__create_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__create_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__create_date
 msgid "Created on"
 msgstr "Creato il"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__date_availability
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__date_availability
 msgid "Date Availability"
 msgstr "Disponibilità"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__date_deadline
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__date_deadline
 msgid "Date Deadline"
 msgstr "Data di Scadenza"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "Deadline"
 msgstr "Scadenza"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__description
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__description
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "Description"
 msgstr "Descrizione"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__display_name
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__display_name
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__display_name
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__display_name
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__display_name
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__display_name
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__display_name
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__display_name
 msgid "Display Name"
 msgstr "Nome da Visualizzare"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__garden_orientation__east
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__east
 msgid "East"
 msgstr "Est"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__expected_price
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__expected_price
+#: model_terms:ir.ui.view,arch_db:estate.report_property
 msgid "Expected Price"
 msgstr "Prezzo previsto"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__facades
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__facades
 msgid "Facades"
 msgstr "Facciate"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__garage
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garage
 msgid "Garage"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__garden
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden
 msgid "Garden"
 msgstr "Giardino"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__garden_area
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden_area
 msgid "Garden Area"
 msgstr "Area del Giardino"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__garden_orientation
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden_orientation
 msgid "Garden Orientation"
 msgstr "Orientamento del Giardino"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Group By"
 msgstr "Raggruppa per"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__id
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__id
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__id
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__id
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__id
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__id
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__id
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__id
 msgid "ID"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property____last_update
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer____last_update
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag____last_update
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type____last_update
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property____last_update
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer____last_update
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag____last_update
+#: model:ir.model.fields,field_description:estate.field_estate_property_type____last_update
 msgid "Last Modified on"
 msgstr "Ultima Modifica il"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__write_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__write_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__write_uid
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__write_uid
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__write_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__write_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__write_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__write_uid
 msgid "Last Updated by"
 msgstr "Ultimo Aggiornamento da"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__write_date
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__write_date
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__write_date
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__write_date
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__write_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__write_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__write_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__write_date
 msgid "Last Updated on"
 msgstr "Ultimo Aggiornamento il"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__living_area
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__living_area
 msgid "Living Area"
 msgstr "Zona Giorno"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Living area"
 msgstr "Zona giorno"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__name
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_tag__name
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__name
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__name
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__name
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__name
+#: model_terms:ir.ui.view,arch_db:estate.report_property
 msgid "Name"
 msgstr "Nome"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__state__new
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__new
 msgid "New"
 msgstr "Nuovo"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__garden_orientation__north
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__north
 msgid "North"
 msgstr "Nord"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__offer_ids
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__offer_ids
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__offer_ids
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__offer_ids
 msgid "Offer"
 msgstr "Offerta"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__state__offer_accepted
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__offer_accepted
 msgid "Offer Accepted"
 msgstr "Offerta Accettata"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__offer_count
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__offer_count
 msgid "Offer Count"
 msgstr "Numero di Offerte"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__state__offer_received
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__offer_received
 msgid "Offer Received"
 msgstr "Offerta Ricevuta"
 
-#. module: Estate16
-#: model:ir.actions.act_window,name:Estate16.estate_property_offer_action
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_type_view_tree
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_offer_action
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_type_view_tree
 msgid "Offers"
 msgstr "Offerte"
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property_offer.py:0
+#: code:addons/estate/models/estate_property_offer.py:0
 #, python-format
 msgid "Only one offer can be accepted for a given property!"
 msgstr "Può essere accettata una sola offerta per proprietà!"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "Other Info"
 msgstr "Altre Info"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__partner_id
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__partner_id
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "Partner"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__postcode
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__postcode
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Postcode"
 msgstr "Codice Postale"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__price
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__price
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "Price"
 msgstr "Prezzo"
 
-#. module: Estate16
-#: model:ir.actions.report,name:Estate16.estate_property_report
-#: model:ir.actions.report,name:Estate16.res_user_report
+#. module: estate
+#: model:ir.actions.report,name:estate.estate_property_report
+#: model:ir.actions.report,name:estate.res_user_report
 msgid "Print sale info"
 msgstr "Stampa informazioni di vendita"
 
-#. module: Estate16
-#: model:ir.actions.act_window,name:Estate16.estate_property_action
-#: model:ir.ui.menu,name:Estate16.estate_property_menu_action
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_action
+#: model:ir.ui.menu,name:estate.estate_property_menu_action
+#: model_terms:ir.ui.view,arch_db:estate.report_property
 msgid "Properties"
 msgstr "Proprietà"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__property_id
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_type__property_ids
-#: model:ir.model.fields,field_description:Estate16.field_res_users__property_ids
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__property_id
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__property_ids
+#: model:ir.model.fields,field_description:estate.field_res_users__property_ids
 msgid "Property"
 msgstr "Proprietà"
 
-#. module: Estate16
-#: model:ir.actions.act_window,name:Estate16.estate_property_tags_action
-#: model:ir.ui.menu,name:Estate16.estate_property_tags_menu_action
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_tags_action
+#: model:ir.ui.menu,name:estate.estate_property_tags_menu_action
 msgid "Property Tags"
 msgstr "Etichette"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__property_type_id
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__property_offer_type_id
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__property_type_id
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__property_offer_type_id
 msgid "Property Type"
 msgstr "Tipo"
 
-#. module: Estate16
-#: model:ir.actions.act_window,name:Estate16.estate_property_type_action
-#: model:ir.ui.menu,name:Estate16.estate_property_type_menu_action
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_type_action
+#: model:ir.ui.menu,name:estate.estate_property_type_menu_action
 msgid "Property Types"
 msgstr "Tipi"
 
-#. module: Estate16
-#: model:ir.ui.menu,name:Estate16.advertisement_menu
+#. module: estate
+#: model:ir.ui.menu,name:estate.advertisement_menu
 msgid "Real Estate"
 msgstr ""
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_res_user_view_form
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_res_user_view_form
 msgid "Real Estate Properties"
 msgstr "Proprietà Real Estate"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property_offer__status__refused
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property_offer__status__refused
 msgid "Refused"
 msgstr "Rifiutato"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "SOLD"
 msgstr "VENDUTA"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__user_id
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__user_id
 msgid "Salesperson"
 msgstr "Venditore"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__selling_price
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__selling_price
+#: model_terms:ir.ui.view,arch_db:estate.report_property
 msgid "Selling Price"
 msgstr "Prezzo di Vendita"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__sequence
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__sequence
 msgid "Sequence"
 msgstr "Sequenza"
 
-#. module: Estate16
-#: model:ir.ui.menu,name:Estate16.settings_menu
+#. module: estate
+#: model:ir.ui.menu,name:estate.settings_menu
 msgid "Settings"
 msgstr "Impostazioni"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__state__sold
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__sold
 msgid "Sold"
 msgstr "Venduta"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__garden_orientation__south
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__south
 msgid "South"
 msgstr "Sud"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__state
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__state
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "State"
 msgstr "Stato"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__status
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__status
 msgid "Status"
 msgstr "Stato"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__tag_ids
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__tag_ids
 msgid "Tag"
 msgstr "Etichetta"
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property.py:0
+#: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "The expected price must be strictly positive."
 msgstr "Il prezzo previsto deve essere strettamente positivo."
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property_tag.py:0
-#: code:addons/Estate16/models/estate_property_type.py:0
+#: code:addons/estate/models/estate_property_tag.py:0
+#: code:addons/estate/models/estate_property_type.py:0
 #, python-format
 msgid "The name must be unique."
 msgstr "Il nome deve essere unico."
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property_offer.py:0
+#: code:addons/estate/models/estate_property_offer.py:0
 #, python-format
 msgid "The price must be strictly positive."
 msgstr "Il prezzo deve essere strettamente positivo."
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property_offer.py:0
+#: code:addons/estate/models/estate_property_offer.py:0
 #, python-format
 msgid "The selling price cannot be lower than 90% of the expected price."
 msgstr "Il prezzo di vendita non può essere inferiore al 90% del prezzo previsto."
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property.py:0
+#: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "The selling price must be positive."
 msgstr "Il prezzo di vendita deve essere positivo."
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_view_kanban
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
 msgid "This is new!"
 msgstr "Nuovo!"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_search
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_search
 msgid "Title"
 msgstr "Titolo"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property__total_area
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__total_area
 msgid "Total Area"
 msgstr "Superficie Totale"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.estate_property_form
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_form
 msgid "Total Area (sqm)"
 msgstr "Superficie Totale (mq)"
 
-#. module: Estate16
-#: model:ir.model,name:Estate16.model_res_users
+#. module: estate
+#: model:ir.model,name:estate.model_res_users
 msgid "User"
 msgstr "Utente"
 
-#. module: Estate16
-#: model:ir.model.fields,field_description:Estate16.field_estate_property_offer__validity
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_offer__validity
 msgid "Validity"
 msgstr "Validità"
 
-#. module: Estate16
-#: model_terms:ir.ui.view,arch_db:Estate16.report_property_offers
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property_offers
 msgid "Validity (days)"
 msgstr "Validità (giorni)"
 
-#. module: Estate16
-#: model:ir.model.fields.selection,name:Estate16.selection__estate_property__garden_orientation__west
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__west
 msgid "West"
 msgstr "Ovest"
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property.py:0
+#: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "You can delete a property with a 'new' or 'deleted' status"
 msgstr "Puoi cancellare una proprietà con stato 'nuovo' o 'cancellata'"
 
-#. module: Estate16
+#. module: estate
 #. odoo-python
-#: code:addons/Estate16/models/estate_property_offer.py:0
+#: code:addons/estate/models/estate_property_offer.py:0
 #, python-format
 msgid "You cannot create an offer with a lower amount than an existing offer."
 msgstr "Non puoi creare un'offerta con ammontare minore rispetto ad una già esistente"
 
-#. module: Estate16
-#: model:ir.model,name:Estate16.model_estate_property
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property
 msgid "estate.property"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model,name:Estate16.model_estate_property_offer
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property_offer
 msgid "estate.property.offer"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model,name:Estate16.model_estate_property_tag
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property_tag
 msgid "estate.property.tag"
 msgstr ""
 
-#. module: Estate16
-#: model:ir.model,name:Estate16.model_estate_property_type
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property_type
 msgid "estate.property.type"
 msgstr ""
